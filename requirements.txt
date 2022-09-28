@@ -1,8 +1,11 @@
-# qrcode[pil]
 pyotp
 pyqrcode
 pypng
 slack_sdk
 
 # prepare local repositories
+# if you use venv then activate your environment and run
+# pip install -r requirements.txt
+# Alternatively, just for the Lambda deployment package
+# you can install into a temporary "python" folder
 # pip install -r requirements.txt -t python
