@@ -1,0 +1,8 @@
+# qrcode[pil]
+pyotp
+pyqrcode
+pypng
+slack_sdk
+
+# prepare local repositories
+# pip install -r requirements.txt -t python

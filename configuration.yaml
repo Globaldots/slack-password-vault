@@ -1,0 +1,7 @@
+DEFAULT_AWS_REGION: eu-central-1
+# SECRETS_STORE can be either ssm or secretsmanager
+SECRETS_STORE: ssm
+VAULT_SECRETS_PREFIX: /otp/
+VAULT_CONFIGURATION_SECRETS: otp-config
+# S3_BUCKET is used to temporarily save QR images
+S3_BUCKET: uas56gt45ffh
