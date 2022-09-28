@@ -12,7 +12,7 @@ else: # ignore any other values, set default to be ssm
     import access_ssm_aws as vault
 
 otp_configuration = {
-    "vault_editors": ["U0AAAAAA", "U040BBBBB"],
+    "vault_editors": ["U040CCCCC", "U0AAAAAA", "U040BBBBB"],
     "vault_super_editors": ["U040CCCCC"],
     "slack-token" : "xoxb-5555555555-666666666666666-xyzxyzxyzxyzxyzxyzxyzxyz",
     "slack-signing-secret" : "7777777777777777777777777777777777"
