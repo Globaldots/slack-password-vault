@@ -1,0 +1,41 @@
+{
+    "display_information": {
+        "name": "otp",
+        "description": "Fetch OTP",
+        "background_color": "#000000"
+    },
+    "features": {
+        "bot_user": {
+            "display_name": "otp",
+            "always_online": false
+        },
+        "slash_commands": [
+            {
+                "command": "/otp",
+                "url": "https://xxxxxxxxxx.execute-api.eu-central-1.amazonaws.com/",
+                "description": "Fetch OTP",
+                "usage_hint": "help",
+                "should_escape": false
+            }
+        ]
+    },
+    "oauth_config": {
+        "redirect_urls": [
+            "https://www.globaldots.com/"
+        ],
+        "scopes": {
+            "user": [
+                "users:read"
+            ],
+            "bot": [
+                "commands",
+                "users:read"
+            ]
+        }
+    },
+    "settings": {
+        "org_deploy_enabled": false,
+        "socket_mode_enabled": false,
+        "token_rotation_enabled": false
+    }
+}
