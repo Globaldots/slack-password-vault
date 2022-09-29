@@ -1,7 +1,7 @@
 # The slack /otp command
 The /otp command can be used to store and retrieve shared one-time-passwords via slack.   
 
-The command executes a AWS Lambda, and uses either AWS SSM or AWS SecretsManager to store the OTP seeds. SSM costs less, but it is up to you to decide. 
+The command executes a AWS python Lambda, and uses either AWS SSM or AWS SecretsManager to store the OTP seeds. SSM costs less, but it is up to you to decide. 
 
 ## Installation
 If you use venv, now is the time to activate it. Install dependencies for your entire python environment or to your venv by running
